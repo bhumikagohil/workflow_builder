@@ -36,10 +36,10 @@ function SMSTab() {
     add_element:{id: length+1, parent: {id: length},childOf:{number: length}, name: 'sms',compo: <SMSNode/>, children: []},})
     dispatch({type: 'ADD_STEP_ELEMENT',
     add_step_element:{id: length+2, parent: {id: length+1},childOf:{number: length+1}, name: 'stepNode',compo: <AddStepNode/>, children: []},})
-    history.push("/details");
+    history.push("/visual_workflow_builder/details");
   }
   const handleCancel = ()=>{
-    history.push("/details");
+    history.push("/visual_workflow_builder/details");
   }
 
   const dispatch = useDispatch();

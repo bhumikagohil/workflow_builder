@@ -34,7 +34,7 @@ function WorkFlowTab() {
   const handleSave = ()=>{
     dispatch({ type: 'SET_WORKFLOW_DETAILS' , workflowName: name ,trigger: trigger , 
     add_element:{id: 2, parent: {id: 1},childOf:{number: 1}, name: 'workflow',compo: <AddStepNode/>, children: []}})
-    history.push("/details");
+    history.push("/visual_workflow_builder/details");
   }
 
   return  (
