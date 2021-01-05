@@ -15,26 +15,26 @@ import ConditionTab from './Components/Sidebar/ConditionTab';
 
 const routes = [
   {
-    path: "/visual_workflow_builder",
+    path: "/",
     main: () => <WorkflowTab/>
   },
   {
-    path: "/visual_workflow_builder/details",
+    path: "/details",
     main: () => <DetailsTab/>
   },
   {
-    path: "/visual_workflow_builder/contacts",
+    path: "/contacts",
     main: () => <ContactsTab/>
   },
   {
-    path: "/visual_workflow_builder/sms",
+    path: "/sms",
     main: () => <SMSTab/>
   },{
-    path: "/visual_workflow_builder/delay",
+    path: "/delay",
     main: () => <DelayTab/>
   },
   {
-    path: "/visual_workflow_builder/condition",
+    path: "/condition",
     main: () => <ConditionTab/>
   },
 ];
@@ -71,7 +71,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-          <Route exact path="/visual_workflow_builder">
+          <Route exact path="/">
           <Grid container direction="row" spacing={1} >
                 <Grid item xs={2}>
                 <Drawer

@@ -38,10 +38,10 @@ function ConditionTab() {
     dispatch({type: 'ADD_STEP_ELEMENT',
     add_step_element:{id: length+4, parent: {id: length+1},childOf:{number: length+1}, name: 'stepNode',compo: <AddStepNode/>, children: []},
   })
-    history.push("/visual_workflow_builder/details");
+    history.push("/details");
   }
   const handleCancel = ()=>{
-    history.push("/visual_workflow_builder/details");
+    history.push("/details");
   }
 
   const dispatch = useDispatch();

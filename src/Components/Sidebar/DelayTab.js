@@ -34,10 +34,10 @@ function DelayTab() {
     add_element:{id: length+1, parent: {id: length},childOf:{number: length}, name: 'delay',compo: <DelayNode/>, children: []},})
     dispatch({type: 'ADD_STEP_ELEMENT',
     add_step_element:{id: length+2, parent: {id: length+1},childOf:{number: length+1}, name: 'subcompastepNodeny1',compo: <AddStepNode/>, children: []},})
-    history.push("/visual_workflow_builder/details");
+    history.push("/details");
   }
   const handleCancel = ()=>{
-    history.push("/visual_workflow_builder/details");
+    history.push("/details");
   }
 
   const dispatch = useDispatch();
