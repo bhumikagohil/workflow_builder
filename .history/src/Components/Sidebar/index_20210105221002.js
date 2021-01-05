@@ -13,6 +13,7 @@ import ConditionTab from './ConditionTab';
 const routes = [
   {
     path: "/",
+    exact: true,
     main: () => <WorkflowTab/>
   },
   {
@@ -43,6 +44,7 @@ function Sidebar() {
             {routes.map((route, index) => (
               <Route
                 key={index}
+                exact={route.exact}
                 path={route.path}
                 children={<route.main />}
               />
