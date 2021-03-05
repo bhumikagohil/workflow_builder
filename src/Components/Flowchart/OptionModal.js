@@ -34,19 +34,19 @@ export default function SimpleModal({ open, handleClose }) {
 
   const handleContactClick = () => {
     dispatch({ type: "REMOVE_END_ELEMENTS" });
-    history.push("/contacts");
+    history.push("/workflow_builder/contacts");
   };
   const handleSMSClick = () => {
     dispatch({ type: "REMOVE_END_ELEMENTS" });
-    history.push("/sms");
+    history.push("/workflow_builder/sms");
   };
   const handleDelayClick = () => {
     dispatch({ type: "REMOVE_END_ELEMENTS" });
-    history.push("/delay");
+    history.push("/workflow_builder/delay");
   };
   const handleConditionClick = () => {
     dispatch({ type: "REMOVE_END_ELEMENTS" });
-    history.push("/condition");
+    history.push("/workflow_builder/condition");
   };
 
   return (
