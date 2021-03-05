@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/workflow_builder/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/workflow_builder/static/js/main.272fd068.chunk.js",
+    "main.js.map": "/workflow_builder/static/js/main.272fd068.chunk.js.map",
+    "runtime-main.js": "/workflow_builder/static/js/runtime-main.aa9c1c1c.js",
+    "runtime-main.js.map": "/workflow_builder/static/js/runtime-main.aa9c1c1c.js.map",
+    "static/js/2.0f539c0e.chunk.js": "/workflow_builder/static/js/2.0f539c0e.chunk.js",
+    "static/js/2.0f539c0e.chunk.js.map": "/workflow_builder/static/js/2.0f539c0e.chunk.js.map",
+    "static/js/3.113e65d1.chunk.js": "/workflow_builder/static/js/3.113e65d1.chunk.js",
+    "static/js/3.113e65d1.chunk.js.map": "/workflow_builder/static/js/3.113e65d1.chunk.js.map",
+    "index.html": "/workflow_builder/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/workflow_builder/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0f539c0e.chunk.js.LICENSE.txt": "/workflow_builder/static/js/2.0f539c0e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa9c1c1c.js",
+    "static/js/2.0f539c0e.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.272fd068.chunk.js"
+  ]
+}
