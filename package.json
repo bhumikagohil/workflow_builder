@@ -2,6 +2,7 @@
   "name": "visual_workflow_builder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://bhumikagohil.github.io/workflow_builder",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/data-grid": "^4.0.0-alpha.14",
@@ -25,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
