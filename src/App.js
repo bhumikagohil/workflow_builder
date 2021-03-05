@@ -1,14 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store";
-import {
-  Button,
-  Drawer,
-  makeStyles,
-  Grid,
-  Typography,
-  Paper,
-} from "@material-ui/core";
+import { Drawer, makeStyles, Grid, Typography, Paper } from "@material-ui/core";
 import FlowChart from "./Components/Flowchart/index";
 import routes from "./Components/routes";
 
@@ -70,7 +63,7 @@ function App() {
                           key={index}
                           path={route.path}
                           exact={route.exact}
-                          children={route.main}
+                          children={route.sidebar}
                         />
                       ))}
                     </Switch>
