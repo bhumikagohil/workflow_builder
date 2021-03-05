@@ -50,7 +50,7 @@ function WorkFlowTab() {
         children: [],
       },
     });
-    history.push("/details");
+    history.push("/workflow_builder/details");
   };
 
   return (

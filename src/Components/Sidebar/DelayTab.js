@@ -57,10 +57,10 @@ function DelayTab() {
         children: [],
       },
     });
-    history.push("/details");
+    history.push("/workflow_builder/details");
   };
   const handleCancel = () => {
-    history.push("/details");
+    history.push("/workflow_builder/details");
   };
 
   const dispatch = useDispatch();

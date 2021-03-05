@@ -8,28 +8,28 @@ import ConditionTab from "./Sidebar/ConditionTab";
 
 const routes = [
   {
-    path: "/",
+    path: "/workflow_builder",
     exact: true,
     sidebar: () => <WorkflowTab />,
   },
   {
-    path: "/details",
+    path: "/workflow_builder/details",
     sidebar: <DetailsTab />,
   },
   {
-    path: "/contacts",
+    path: "/workflow_builder/contacts",
     sidebar: () => <ContactsTab />,
   },
   {
-    path: "/sms",
+    path: "/workflow_builder/sms",
     sidebar: () => <SMSTab />,
   },
   {
-    path: "/delay",
+    path: "/workflow_builder/delay",
     sidebar: () => <DelayTab />,
   },
   {
-    path: "/condition",
+    path: "/workflow_builder/condition",
     sidebar: () => <ConditionTab />,
   },
 ];

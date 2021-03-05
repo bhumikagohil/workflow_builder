@@ -60,10 +60,10 @@ export default function ContactsTab() {
         children: [],
       },
     });
-    history.push("/details");
+    history.push("/workflow_builder/details");
   };
   const handleCancel = () => {
-    history.push("/details");
+    history.push("/workflow_builder/details");
   };
   return (
     <Grid
